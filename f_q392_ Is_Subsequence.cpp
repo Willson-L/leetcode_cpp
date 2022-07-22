@@ -6,8 +6,7 @@ using namespace std;
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
-        vector<int> num; 
-                
+        vector<int> num;                 
         if(s ==t){
             return true;
         }
